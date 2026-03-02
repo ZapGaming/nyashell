@@ -6,7 +6,6 @@ pkg/
 **/*.so
 **/*.dylib
 **/*.dll
-**/*.exe
 
 # IDEs
 .vscode/
@@ -17,7 +16,6 @@ pkg/
 .DS_Store
 
 # Build artifacts
-nyashell.exe
 nyashell
 
 # Logs

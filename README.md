@@ -98,7 +98,7 @@ All assets are hand-crafted with ❤️ using the NyaShell color palette:
 
 ### 🌐 GitHub Pages Website
 
-Check out our beautiful **Liquid Glass** themed website:
+Check out our beautiful **Liquid Glass** themed website with **dynamic API-driven stats**:
 
 👉 **[https://zapgaming.github.io/nyashell/](https://zapgaming.github.io/nyashell/)**
 
@@ -107,17 +107,24 @@ Features:
 - 🌊 **Animated gradient background** with radial pulses
 - 📱 **Fully responsive** design for all devices
 - 🎯 **Smooth scroll** navigation with reveal animations
-- 📊 **Animated counters** for stats
+- 📊 **Animated counters** for stats with **GitHub API integration**
+- 🏷️ **Dynamic badges** that fetch real-time star, fork, issue, and download counts
 - 💻 **Terminal preview** with syntax highlighting
 - 🎨 **Custom color scheme** matching NyaShell TUI
+- 📋 **Changelog** and **Roadmap** sections
+- ⚖️ **Feature comparison** table vs CMD/PowerShell
+- 🔘 **Interactive elements** with hover effects and ripple animations
 
 The site is built with pure HTML/CSS/JS and showcases:
 - Hero section with call-to-action buttons
-- Stats cards with animated numbers
+- Stats cards with animated numbers (including live GitHub stats)
+- **Dynamic badge showcase** with hover glow effects
 - Feature grid with glass cards
 - Terminal UI preview
 - Installation instructions
 - Direct download link
+- Changelog and upcoming features
+- Comparison with other terminals
 
 </div>
 
@@ -149,7 +156,7 @@ The site is built with pure HTML/CSS/JS and showcases:
 
 ```powershell
 # Clone the repository
-git clone https://github.com/yourusername/nyashell.git
+git clone https://github.com/zapgaming/nyashell.git
 cd nyashell
 
 # Build the project
@@ -176,7 +183,7 @@ cargo build --release
 
 ```cmd
 # Clone and build
-git clone https://github.com/yourusername/nyashell.git
+git clone https://github.com/zapgaming/nyashell.git
 cd nyashell
 cargo build --release
 ```
@@ -213,7 +220,7 @@ powershell -ExecutionPolicy Bypass -File install-profile.ps1
 
 <div align="center">
 
-📥 **Download**: [Latest Release](https://github.com/yourusername/nyashell/releases/latest)
+📥 **Download**: [Latest Release](https://github.com/zapgaming/nyashell/releases/latest)
 
 1. Download `nyashell-windows-x64.exe`
 2. Rename to `nyashell.exe`
@@ -544,7 +551,7 @@ nyashell/
 
 ```cmd
 # Clone repository
-git clone https://github.com/yourusername/nyashell.git
+git clone https://github.com/zapgaming/nyashell.git
 cd nyashell
 
 # Build in release mode
