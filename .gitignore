@@ -1,0 +1,50 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+pkg/
+**/*.so
+**/*.dylib
+**/*.dll
+**/*.exe
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+nyashell.exe
+nyashell
+
+# Logs
+*.log
+nyashell.log
+
+# Configuration (user-specific)
+config.toml
+settings.json
+
+# Temporary files
+temp_*
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Installer artifacts
+install/
+dist/
+release/
+package/
+
+# GitHub
+.DS_Store

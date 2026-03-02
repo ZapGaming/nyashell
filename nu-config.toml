@@ -1,0 +1,34 @@
+# NyaShell Nushell Configuration
+
+# Load the nyashell plugin
+plugins = ["nyashell"]
+
+# Custom prompt with catboy theme
+prompt = "❯ "
+
+# Enable command history
+history = true
+
+# Custom color scheme (catboy palette)
+[color]
+# Background
+background = "#0d0d0d"
+# Foreground
+foreground = "#e0e0e0"
+# Selection
+selection = "#4a4a6a"
+# Cursor
+cursor = "#ff6b9d"
+
+# Command colors
+command = "#ff6b9d"      # Pink
+path = "#7b68ee"         # Purple
+string = "#98c379"       # Green
+number = "#d19a66"       # Orange
+bool = "#56b6c2"         # Cyan
+
+# Git colors
+git_modified = "#ff6b9d"
+git_added = "#98c379"
+git_renamed = "#7b68ee"
+git_deleted = "#e06c75"
